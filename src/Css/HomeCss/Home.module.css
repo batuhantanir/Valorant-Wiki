@@ -1,0 +1,24 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  background: #151d28;
+}
+
+.Logo {
+  margin-top: 20px;
+  height: 65px;
+  width: 80px;
+}
+
+.WikiTitle{
+    color: #fff;
+}
+
+.WikiDescription{
+    color: #fff;
+    width: 50%;
+    margin-bottom: 20px;
+}

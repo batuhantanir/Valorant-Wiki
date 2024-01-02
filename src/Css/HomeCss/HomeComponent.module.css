@@ -1,0 +1,43 @@
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #ff4454;
+  padding: 5px 0 20px 0;
+  border: 2px solid white;
+  border-radius: 8px;
+  width: 92%;
+}
+
+.ContainerTitle {
+}
+
+.ContainerTitle a{
+    color: #fff;
+}
+
+.AgentsList{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Card h5 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: large;
+    color: #fff;
+}
+.fullPortrait {
+  height: 150px;
+  margin-bottom: 15px;
+}
+.WeaponsImg{
+  height: 60px;
+  margin: 15px 5px;
+}
+.MapsImg{
+  height: 200px;
+  margin: 15px 5px;
+}

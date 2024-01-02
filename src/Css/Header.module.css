@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2vw 10vw 0 10vw;
+  border-bottom: 2px solid #fff;
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.navbarBrand {
+  display: flex;
+}
+
+.navbarImg {
+  height: 50px;
+  
+}
+
+.NavbarList {
+  display: flex;
+}
+
+.NavbarListItem {
+
+  padding-top: 15px;
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.navLink {
+  padding: 5px;
+}
+
+.NavbarListItem a:hover {
+  border-radius: 5px;
+  background: #ff4454;
+  color: #fff;
+}
+
+.activeNav {
+  padding: 5px;
+  border-radius: 5px;
+  background: #ff4454;
+  color: #fff;
+}

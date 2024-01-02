@@ -1,0 +1,56 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #151D28;
+}
+.Card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #fff;
+  border-radius: 7px;
+  margin: 20px 0 0 0;
+  width: 95%;
+  min-height: 30vw;
+  box-shadow: 0 0 25px black;
+  background: #ff4454
+}
+.MapTitle {
+  font-weight: bolder;
+  color: #fff;
+  text-shadow: 0 0 10px black;
+}
+
+.coordinates {
+  color: #fff;
+  font-weight: 600;
+  text-shadow: 0 0 10px black;
+}
+
+.ImgContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 95%;
+  margin-bottom: 10px;
+}
+
+.splash,
+.displayIcon {
+  margin: 1rem 2vw;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  background: #414141bf;
+  backdrop-filter: blur(3px);
+  box-shadow: 0 0 15px black;
+}
+
+.splash {
+  max-width: 700px;
+  min-width: 200px;
+}
+.displayIcon {
+  max-width: 400px;
+  min-width: 200px;
+}
